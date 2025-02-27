@@ -1,13 +1,47 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { ThemeProvider } from "@/components/theme-provider"
+import { ThemeToggle } from "@/components/theme-toggle"
+import { DockNavigation } from "@/components/dock-navigation"
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <ThemeProvider defaultTheme="system">
+      <div className="min-h-screen w-full bg-background text-foreground">
+        <ThemeToggle />
+        
+        <main className="container max-w-4xl mx-auto px-4 py-16">
+          <section className="space-y-4 animate-fade-in">
+            <span className="text-sm font-medium px-4 py-1 rounded-full bg-primary/10 text-primary inline-block">
+              Software Developer
+            </span>
+            <h1 className="text-4xl sm:text-5xl font-bold">
+              Hi, I'm <span className="text-primary">Your Name</span>
+            </h1>
+            <p className="text-lg text-muted-foreground max-w-2xl">
+              A passionate software developer crafting beautiful and functional web experiences.
+              I specialize in modern web technologies and user-centric design.
+            </p>
+          </section>
+
+          <section className="mt-24 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {[1, 2, 3, 4].map((i) => (
+              <div
+                key={i}
+                className="group p-6 rounded-lg border bg-card text-card-foreground shadow-sm transition-all duration-200 hover:shadow-md animate-fade-in-up"
+                style={{ animationDelay: `${i * 100}ms` }}
+              >
+                <h3 className="text-lg font-semibold mb-2">Project {i}</h3>
+                <p className="text-sm text-muted-foreground">
+                  A brief description of your amazing project goes here.
+                </p>
+              </div>
+            ))}
+          </section>
+        </main>
+
+        <DockNavigation />
       </div>
-    </div>
+    </ThemeProvider>
   );
 };
 
