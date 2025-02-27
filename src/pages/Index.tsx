@@ -33,21 +33,21 @@ const experienceData = [
   {
     title: "Software Engineer",
     company: "HCL Technologies",
-    period: "2019 - 2021",
+    period: "2024 - Present",
     description: "As an SDE for the client - CitiBank, Designed and implemented a scalable microservices architecture handling 1M+ daily requests. Engineering MT-MX translation using Java, Spring Boot and Kafka for real-time communication with cross-functional services. Optimized API integrations, enhancing transaction efficiency and interoperability across Citibank’s global financial network.Developed AI-driven monitoring and fraud detection systems, proactively mitigating risks and ensuring zero downtime in critical payment flows. Worked with cross-functional teams, driving innovation and aligning development with banking regulations, financial compliance, and industry best practices",
 
   },
   {
   title: "Software Engineer",
   company: "HCL Technologies",
-  period: "2022 - 2024",
+  period: "2021 - 2024",
   description: "As an SDE for the client - Royal Bank of Scotland International, architected and optimized the VolPay application, successfully mapping 86.5% of Swift MT to PACS messages and integrating client-specific collection objects. Designed and implemented enterprise-grade monitoring solutions, reducing system downtime by 94.2% through advanced logging and real-time issue detection. Developed a flexible business rules engine, enabling clients to define custom validations, significantly reducing maintenance costs by 76.4% and enhancing adaptability.Established coding best practices and rigorous testing frameworks, ensuring 90%+ code coverage, improving system reliability, and reinforcing compliance with industry standards"
 }
 , {
   title: "Junior Developer",
   company: "HCL Technologies",
-  period: "2021 - 2022",
-  description: "As an SDE for the client Munich Re, developed and customized Guidewire solutions for policy administration and claims processing, improving operational efficiency.Implemented business rules and workflows, ensuring accurate risk assessment and policy underwriting.Optimized system performance and reliability, reducing processing delays in claims and policy management.Worked closely with stakeholders to align development with business needs and regulatory requirements",
+  period: "2019 - 2021",
+  description: "As an SDE for the client - Munich Re, developed and customized Guidewire solutions for policy administration and claims processing, improving operational efficiency.Implemented business rules and workflows, ensuring accurate risk assessment and policy underwriting.Optimized system performance and reliability, reducing processing delays in claims and policy management.Worked closely with stakeholders to align development with business needs and regulatory requirements",
 
 }];
 const Index = () => {
