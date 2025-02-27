@@ -6,13 +6,13 @@ const socialLinks = [
   { 
     icon: Github, 
     label: "GitHub", 
-    href: "https://github.com/yourusername",
+    href: "https://github.com/Sasikumar4420",
     external: true 
   },
   { 
     icon: Linkedin, 
     label: "LinkedIn", 
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://www.linkedin.com/in/sasi-kumar-9873021b5",
     external: true 
   },
   { 
@@ -24,7 +24,7 @@ const socialLinks = [
   { 
     icon: Mail, 
     label: "Email", 
-    href: "mailto:your@email.com",
+    href: "sasisanjay442000@gmail.com",
     external: true 
   },
 ]

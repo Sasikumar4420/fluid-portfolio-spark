@@ -4,50 +4,51 @@ import { DockNavigation } from "@/components/dock-navigation";
 import { useEffect, useRef } from "react";
 import { FileText, Download } from "lucide-react";
 const projectData = [{
-  title: "AI-Powered Analytics Dashboard",
-  description: "Led development of a real-time analytics platform with machine learning capabilities, serving 100k+ users.",
-  tags: ["React", "Python", "TensorFlow", "AWS"]
+  title: "Citibank",
+  description: "As a part of Data Quality Engine team, handled the functional requirements of the APAC region. Notable contributions include working on MT-MX Translator, FlexiCube Integration and enhancing data quality throughout components",
+  tags: ["Java", "Spring", "Kafka","Microservices","MongoDB","CI/CD","Elasticsearch"]
 }, {
-  title: "Microservices Architecture",
-  description: "Designed and implemented a scalable microservices architecture handling 1M+ daily requests.",
-  tags: ["Node.js", "Docker", "Kubernetes", "gRPC"]
+  title: "Royal Bank of Scotland International",
+  description: "Developed several validations as per functional requirements, thereby ensuring proper transactions end-to-end. Notable works were on FX validations , Payment Pre-processing and Business Rules.",
+  tags: ["Java", "Spring", "MySQL", "Active MQ","Volante Designer","Elasticsearch"]
 }, {
-  title: "Fintech Payment Platform",
-  description: "Built a secure payment processing system with blockchain integration and real-time fraud detection.",
-  tags: ["Go", "PostgreSQL", "Redis", "Blockchain"]
-}, {
-  title: "Enterprise Search Engine",
-  description: "Developed an AI-powered search engine with natural language processing capabilities.",
-  tags: ["Elasticsearch", "Python", "NLP", "React"]
+  title: "Munich Re",
+  description: "Worked on insurance claims, bills and processes and provided assistance by enhancing code quality and vigorous test implementations",
+  tags: ["Guidewire","MySQL"]
 }];
 const skillsData = [{
   category: "Frontend",
-  skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Redux", "GraphQL"]
+  skills: ["React", "HTML", "CSS", "GraphQL"]
 }, {
   category: "Backend",
-  skills: ["Node.js", "Python", "Go", "Java", "PostgreSQL", "MongoDB"]
+  skills: ["Java", "Python", "MySQL", "PostgreSQL", "MongoDB", "Linux"]
 }, {
   category: "DevOps & Cloud",
-  skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "Linux"]
+  skills: ["OpenShift", "Docker", "Jenkins", "CI/CD", "Linux"]
 }, {
   category: "Architecture",
-  skills: ["Microservices", "Event-Driven", "DDD", "TDD", "System Design"]
+  skills: ["Microservices", "Event-Driven","System Design"]
 }];
-const experienceData = [{
-  title: "Senior Software Engineer",
-  company: "Tech Corp",
-  period: "2021 - Present",
-  description: "Leading a team of 8 engineers, architecting cloud-native solutions."
-}, {
+const experienceData = [
+  {
+    title: "Software Engineer",
+    company: "HCL Technologies",
+    period: "2019 - 2021",
+    description: "As an SDE for the client - CitiBank, Designed and implemented a scalable microservices architecture handling 1M+ daily requests. Engineering MT-MX translation using Java, Spring Boot and Kafka for real-time communication with cross-functional services. Optimized API integrations, enhancing transaction efficiency and interoperability across Citibank’s global financial network.Developed AI-driven monitoring and fraud detection systems, proactively mitigating risks and ensuring zero downtime in critical payment flows. Worked with cross-functional teams, driving innovation and aligning development with banking regulations, financial compliance, and industry best practices",
+
+  },
+  {
   title: "Software Engineer",
-  company: "Innovation Labs",
-  period: "2019 - 2021",
-  description: "Developed scalable microservices and real-time analytics systems."
-}, {
+  company: "HCL Technologies",
+  period: "2022 - 2024",
+  description: "As an SDE for the client - Royal Bank of Scotland International, architected and optimized the VolPay application, successfully mapping 86.5% of Swift MT to PACS messages and integrating client-specific collection objects. Designed and implemented enterprise-grade monitoring solutions, reducing system downtime by 94.2% through advanced logging and real-time issue detection. Developed a flexible business rules engine, enabling clients to define custom validations, significantly reducing maintenance costs by 76.4% and enhancing adaptability.Established coding best practices and rigorous testing frameworks, ensuring 90%+ code coverage, improving system reliability, and reinforcing compliance with industry standards"
+}
+, {
   title: "Junior Developer",
-  company: "StartUp Inc",
-  period: "2018 - 2019",
-  description: "Built and maintained full-stack web applications."
+  company: "HCL Technologies",
+  period: "2021 - 2022",
+  description: "As an SDE for the client Munich Re, developed and customized Guidewire solutions for policy administration and claims processing, improving operational efficiency.Implemented business rules and workflows, ensuring accurate risk assessment and policy underwriting.Optimized system performance and reliability, reducing processing delays in claims and policy management.Worked closely with stakeholders to align development with business needs and regulatory requirements",
+
 }];
 const Index = () => {
   const sectionRefs = useRef<HTMLElement[]>([]);
@@ -85,11 +86,11 @@ const Index = () => {
             </h1>
             <p className="text-muted-foreground max-w-xl mx-0 px-0 py-0 text-base font-normal">Greetings! I'm Sasikumar, a seasoned Full Stack Java Developer and Software Engineer dedicated to driving innovation through technology solutions.My expertise lies in architecting end-to-end web applications, with a focus on backend development using Core Java, Spring Boot, and RESTful web services. I bring a wealth of experience in frontend technologies such as HTML, CSS and JavaScript enabling me to deliver intuitive user interfaces that elevate user experiences.</p>
             <div className="flex gap-4 mt-6">
-              <a href="/resume.pdf" target="_blank" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors">
+              <a href="https://drive.google.com/file/d/16aVsch4-RSlUxFR25p-k3sPY0-9gj-GE/view?usp=drive_link" target="_blank" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors">
                 <FileText className="w-4 h-4" />
                 View Resume
               </a>
-              <a href="/resume.pdf" download className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/90 transition-colors">
+              <a href="https://drive.google.com/uc?export=download&id=16aVsch4-RSlUxFR25p-k3sPY0-9gj-GE" download className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/90 transition-colors">
                 <Download className="w-4 h-4" />
                 Download CV
               </a>
