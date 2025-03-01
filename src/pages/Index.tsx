@@ -18,13 +18,23 @@ const projectData = [{
 }];
 const skillsData = [{
   category: "Frontend",
-  skills: ["React", "HTML", "CSS", "GraphQL"]
-}, {
+  skills: ["React", "HTML", "CSS", "JavaScript", "GraphQL"]
+}, 
+{
   category: "Backend",
-  skills: ["Java", "Python", "MySQL", "PostgreSQL", "MongoDB", "Linux"]
-}, {
+  skills: ["Java", "SpringBoot", "Hibernate"]
+}, 
+{
+  category: "DataBase",
+  skills: ["MySQL", "PostgreSQL", "MongoDB", "PostgreSQL" ,"Redis"]
+},
+{
+  category: "Messaging and Streaming",
+  skills: ["Apache Kafka", "Apache Pulsar", "Rabbit MQ", "IBM MQ", "Active MQ"]
+},
+{
   category: "DevOps & Cloud",
-  skills: ["OpenShift", "Docker", "Jenkins", "CI/CD", "Linux"]
+  skills: ["OpenShift", "Docker", "Jenkins", "CI/CD"]
 }, {
   category: "Architecture",
   skills: ["Microservices", "Event-Driven","System Design"]
@@ -44,9 +54,9 @@ const experienceData = [
   description: "As an SDE for the client - Royal Bank of Scotland International, architected and optimized the VolPay application, successfully mapping 86.5% of Swift MT to PACS messages and integrating client-specific collection objects. Designed and implemented enterprise-grade monitoring solutions, reducing system downtime by 94.2% through advanced logging and real-time issue detection. Developed a flexible business rules engine, enabling clients to define custom validations, significantly reducing maintenance costs by 76.4% and enhancing adaptability.Established coding best practices and rigorous testing frameworks, ensuring 90%+ code coverage, improving system reliability, and reinforcing compliance with industry standards"
 }
 , {
-  title: "Junior Developer",
+  title: "Software Engineer Trainee",
   company: "HCL Technologies",
-  period: "2019 - 2021",
+  period: "2021",
   description: "As an SDE for the client - Munich Re, developed and customized Guidewire solutions for policy administration and claims processing, improving operational efficiency.Implemented business rules and workflows, ensuring accurate risk assessment and policy underwriting.Optimized system performance and reliability, reducing processing delays in claims and policy management.Worked closely with stakeholders to align development with business needs and regulatory requirements",
 
 }];
@@ -79,7 +89,7 @@ const Index = () => {
         <main className="container max-w-3xl mx-auto px-4 py-16">
           <section ref={addToRefs} className="slide-section space-y-4">
             <span className="text-sm font-medium px-4 py-1 rounded-full bg-primary/10 text-primary inline-block">
-              Senior Software Engineer
+              Software Engineer
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold">
               Hi, I'm <span className="text-primary font-bold">Sasikumar Elumalai</span>
