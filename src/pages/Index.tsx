@@ -6,11 +6,11 @@ import { FileText, Download } from "lucide-react";
 const projectData = [{
   title: "Citibank",
   description: "As a part of Data Quality Engine team, handled the functional requirements of the APAC region. Notable contributions include working on MT-MX Translator, FlexiCube Integration and enhancing data quality throughout components",
-  tags: ["Java", "Spring", "Kafka","Microservices","MongoDB","CI/CD","Elasticsearch"]
+  tags: ["Java", "Spring", "Kafka","Microservices","MongoDB","CI/CD","Kibana"]
 }, {
   title: "Royal Bank of Scotland International",
   description: "Developed several validations as per functional requirements, thereby ensuring proper transactions end-to-end. Notable works were on FX validations , Payment Pre-processing and Business Rules.",
-  tags: ["Java", "Spring", "MySQL", "Active MQ","Volante Designer","Elasticsearch"]
+  tags: ["Java", "Spring", "MySQL", "Active MQ","Volante Designer","Kibana"]
 }, {
   title: "Munich Re",
   description: "Worked on insurance claims, bills and processes and provided assistance by enhancing code quality and vigorous test implementations",
@@ -18,19 +18,19 @@ const projectData = [{
 }];
 const skillsData = [{
   category: "Frontend",
-  skills: ["React", "HTML", "CSS", "JavaScript", "GraphQL"]
+  skills: ["HTML", "CSS", "JavaScript", "GraphQL"]
 }, 
 {
   category: "Backend",
-  skills: ["Java", "SpringBoot", "Hibernate"]
+  skills: ["Java", "SpringBoot"]
 }, 
 {
   category: "DataBase",
-  skills: ["MySQL", "PostgreSQL", "MongoDB", "Redis"]
+  skills: ["MySQL" , "MongoDB", "Redis"]
 },
 {
   category: "Messaging and Streaming",
-  skills: ["Apache Kafka", "Apache Pulsar", "Rabbit MQ", "IBM MQ", "Active MQ"]
+  skills: ["Apache Kafka", "Apache Pulsar", "IBM MQ", "Active MQ"]
 },
 {
   category: "DevOps & Cloud",
