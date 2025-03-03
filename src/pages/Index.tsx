@@ -26,7 +26,7 @@ const skillsData = [{
 }, 
 {
   category: "DataBase",
-  skills: ["MySQL", "PostgreSQL", "MongoDB", "PostgreSQL" ,"Redis"]
+  skills: ["MySQL", "PostgreSQL", "MongoDB", "Redis"]
 },
 {
   category: "Messaging and Streaming",
