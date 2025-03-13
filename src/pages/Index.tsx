@@ -13,12 +13,12 @@ const projectData = [{
   tags: ["Java", "Spring", "MySQL", "Active MQ","Volante Designer","Kibana"]
 }, {
   title: "Munich Re",
-  description: "Worked on insurance claims, bills and processes and provided assistance by enhancing code quality and vigorous test implementations",
+  description: "Assisted insurance claims and bills team , providing enhanced code quality and vigorous test implementations",
   tags: ["Guidewire","MySQL"]
 }];
 const skillsData = [{
   category: "Frontend",
-  skills: ["HTML", "CSS", "JavaScript", "GraphQL"]
+  skills: ["HTML", "CSS"]
 }, 
 {
   category: "Backend",
@@ -57,7 +57,7 @@ const experienceData = [
   title: "Software Engineer Trainee",
   company: "HCL Technologies",
   period: "2021",
-  description: "As an SDE for the client - Munich Re, developed and customized Guidewire solutions for policy administration and claims processing, improving operational efficiency.Implemented business rules and workflows, ensuring accurate risk assessment and policy underwriting.Optimized system performance and reliability, reducing processing delays in claims and policy management.Worked closely with stakeholders to align development with business needs and regulatory requirements",
+  description: "As an SDE Intern for the client Munich Re, developed comprehensive test cases for various services, ensuring functionality and reliability.Increased code coverage by writing effective unit and integration tests.Identified and fixed critical bugs, improving system stability and performance",
 
 }];
 const Index = () => {
